@@ -6,18 +6,18 @@ A Streamlit web application that classifies Instagram accounts as REAL or FAKE u
 https://instagram-fake-account-detection-ml-tgrga39pieqsbalpu6ye4a.streamlit.app/
 
 ## 🚀 Features
-- Detects fake or real Instagram accounts
+- Detects fake or real Instagram accounts  
 - Uses profile features such as:
-  - Followers
-  - Following
-  - Bio information
-- Simple and interactive user interface
+  - Followers  
+  - Following  
+  - Bio information  
+- Simple and interactive user interface  
 
 ## 🛠️ Technologies Used
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
+- Python  
+- Streamlit  
+- Scikit-learn  
+- Pandas  
 
 ## 📂 Project Structure
 ```
@@ -33,12 +33,12 @@ instagram-fake-account-detection-ml/
 
 ## ▶️ How to Run
 
-1. Install dependencies:
+**Install dependencies:**
 ```
 pip install -r requirements.txt
 ```
 
-2. Run the app:
+**Run the app:**
 ```
 streamlit run app.py
 ```
@@ -48,9 +48,9 @@ streamlit run app.py
 - FAKE Account ❌  
 
 ## 🔮 Future Improvements
-- Improve model accuracy
-- Add more features (engagement rate, posts analysis)
-- Enhance UI design
+- Improve model accuracy  
+- Add more features (engagement rate, posts analysis)  
+- Enhance UI design  
 
 ## 📄 License
 MIT License
