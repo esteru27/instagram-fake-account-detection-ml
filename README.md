@@ -10,14 +10,38 @@ https://instagram-fake-account-detection-ml-tgrga39pieqsbalpu6ye4a.streamlit.app
 - Uses profile features such as:
   - Followers  
   - Following  
+  - Posts  
   - Bio information  
 - Simple and interactive user interface  
+- Instant prediction results  
+
+## 🧠 Model Information
+- Model Used: Random Forest Classifier  
+- Library: Scikit-learn  
+- Accuracy: ~90% (depends on dataset split)  
+
+## 📊 Dataset
+- File: `instagram_fake_accounts.csv`  
+- Contains features like:
+  - Followers  
+  - Following  
+  - Posts  
+  - Bio length  
+  - Profile information  
+- Used for training and testing the model  
+
+## ⚙️ How It Works
+1. User enters Instagram profile details  
+2. The trained machine learning model processes the input  
+3. The app predicts whether the account is:
+   - REAL ✅  
+   - FAKE ❌  
 
 ## 🛠️ Technologies Used
 - Python  
-- Streamlit  
-- Scikit-learn  
 - Pandas  
+- Scikit-learn  
+- Streamlit  
 
 ## 📂 Project Structure
 ```
@@ -33,12 +57,12 @@ instagram-fake-account-detection-ml/
 
 ## ▶️ How to Run
 
-**Install dependencies:**
+**1. Install dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-**Run the app:**
+**2. Run the app**
 ```
 streamlit run app.py
 ```
@@ -47,9 +71,15 @@ streamlit run app.py
 - REAL Account ✅  
 - FAKE Account ❌  
 
+## 📸 Screenshot
+*(Add your app screenshot here)*  
+```
+![App Screenshot](screenshot.png)
+```
+
 ## 🔮 Future Improvements
 - Improve model accuracy  
-- Add more features (engagement rate, posts analysis)  
+- Add more features (engagement rate, comments, likes)  
 - Enhance UI design  
 
 ## 📄 License
