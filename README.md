@@ -1,20 +1,37 @@
 # Instagram Fake Account Detection
 
-This project detects whether an Instagram account is REAL or FAKE using Machine Learning and Streamlit.
+A web app that detects whether an Instagram account is REAL or FAKE.
+
+## 🌐 Live Demo
+https://instagram-fake-account-detection-ml-tgrga39pieqsbalpu6ye4a.streamlit.app/
 
 ## 🚀 Features
-- Predict fake or real Instagram accounts
-- Uses profile data like:
-  - Followers
-  - Following
-  - Posts
-  - Bio information
-- Interactive web app using Streamlit
+- Detects fake or real accounts
+- Uses followers, following, bio, profile info
+- Simple and interactive interface
 
 ## 🛠️ Technologies Used
 - Python
-- Pandas
-- Scikit-learn
 - Streamlit
+- Scikit-learn
 
 ## 📂 Project Structure
+instagram-fake-account-detection-ml/
+│
+├── app.py
+├── train_model.py
+├── dataset/
+│   └── instagram_fake_accounts.csv
+├── requirements.txt
+└── README.md
+
+## ▶️ How to Run
+pip install -r requirements.txt  
+streamlit run app.py
+
+## 📊 Output
+- REAL Account ✅  
+- FAKE Account ❌  
+
+## 📄 License
+MIT License
