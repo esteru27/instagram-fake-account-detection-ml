@@ -71,11 +71,6 @@ streamlit run app.py
 - REAL Account ✅  
 - FAKE Account ❌  
 
-## 📸 Screenshot
-*(Add your app screenshot here)*  
-```
-![App Screenshot](screenshot.png)
-```
 
 ## 🔮 Future Improvements
 - Improve model accuracy  
